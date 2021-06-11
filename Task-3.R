@@ -7,7 +7,7 @@
 
 #initial configuration
 rm(list=ls())
-pacman::p_load(here,tidyverse,viridis,gapminder,sf,skimr,raster,lwgeom,jtools,ggstance,broom.mixed, outreg,ggplot2,VGAM,rvest)
+pacman::p_load(here,tidyverse,viridis,gapminder,sf,skimr,raster,lwgeom,jtools,ggstance,broom.mixed, outreg,ggplot2,VGAM,rvest,leaflet)
 
 
 #Punto 1.1 Datos espaciales
