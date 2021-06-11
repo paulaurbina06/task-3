@@ -75,6 +75,13 @@ leaflet() %>% addTiles() %>% addCircleMarkers(data=puntos %>% st_transform(.,432
 
 #1.5.2
 
+ggplot(c medicos, aes(fill = Scaled)) +
+  geom_sf() +
+  scalebar(c medicos, dist = 4, dist_unit = "km",
+           transform = FALSE, model = "WGS84") +
+  north(c medicos)
+  blank() +
+  scale_fill_continuous(low = "#fff7ec", high = "#7F0000")
 
 #2.0
 
