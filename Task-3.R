@@ -30,6 +30,13 @@ mapmuse=readRDS("data/input/victimas_map-muse.rds") %>% subset(cod_mpio>=54001 &
 #1.2 atributos
 
 
+skim(c_poblado)
+skim(depto)
+skim(mapmuse)
+skim(hospitales)
+skim(via)
+
+
 #1.3 Geometrias del Objeto
 #Punto 1.3.1
 st_crs(c_poblado)
