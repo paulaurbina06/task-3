@@ -193,7 +193,7 @@ View(tabla)
 #2.5
 #Dado que el estimado es crecano a 0, y la desviación estandar es 0, recrear valores quedó complicado. 
 #No hay parece haber manera fácil de crear esta gráfica a no ser que se creara de ceros, pero 
-#No tenia nada clara la idea de esta gráfica. 
+#No tenia nada clara la idea de esta gráfica. Tampoco encontré nada en el material de clase.
 
 
 
