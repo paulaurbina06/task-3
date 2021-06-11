@@ -19,8 +19,8 @@ via = st_read("data/input/VIAS.shp")
 puntos = st_read("data/input/MGN_URB_TOPONIMIA.shp")
 
 #1.1.2
-infr=st_read("data/input/MGN_URB_TOPONIMIA.shp")
-hospitales= subset(infr,CSIMBOL %in% c("021001","021002","021003"))
+
+hospitales= subset(puntos,CSIMBOL %in% c("021001","021002","021003"))
 
 #1.1.3
 c_poblado=readRDS("data/input/c poblado (2017).rds") %>% subset(cod_dane >= 54001 & cod_dane<55000)
